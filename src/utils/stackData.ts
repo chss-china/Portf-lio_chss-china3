@@ -9,11 +9,36 @@ import {
   FaNode,
   FaReact,
 } from "react-icons/fa";
+import imgDjango from "../public/static/img/django.png";
+import imgTypeORM from "../public/static/img/typeorm.png";
+import imgApi from "../public/static/img/api.png";
+import imgStled from "../public/static/img/styled.png";
+import imgExpress from "../public/static/img/express.png";
 
 export const stackData = [
   {
+    title: "API",
+    img: imgApi,
+  },
+  {
+    title: "Express js",
+    img: imgExpress,
+  },
+  {
+    title: "Styled Components",
+    img: imgStled,
+  },
+  {
     title: "HTML",
     img: FaHtml5,
+  },
+  {
+    title: "TypeORM",
+    img: imgTypeORM,
+  },
+  {
+    title: "Django",
+    img: imgDjango,
   },
   {
     title: "CSS",
@@ -32,7 +57,6 @@ export const stackData = [
     title: "React",
     img: FaReact,
   },
-  { title: "Next.js", img: TbBrandNextjs },
   { title: "Docker", img: FaDocker },
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "Git", img: FaGit },
