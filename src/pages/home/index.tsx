@@ -56,8 +56,7 @@ export const Home = (): JSX.Element => {
                 desenvolver
               </Text>{" "}
               <Text as="h1" type="heading1" color="grey5">
-                projetos. Sou um desenvolvedor{" "}
-                <p style={{ color: "blue" }}>Full Stack</p>Full Stack com mais
+                projetos. Sou um desenvolvedor <Text> Full Stack </Text>com mais
                 de 30 projetos bem-sucedidos. Estou aberto a novas oportunidades
                 de trabalho.
               </Text>
